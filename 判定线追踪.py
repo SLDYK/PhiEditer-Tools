@@ -193,6 +193,7 @@ def rot(x1,y1,x2,y2):
     elif x1==x2 and y1==y2:
         r=0
     return r
+#code by 1615
 root=Tk()
 root.withdraw()
 print("欢迎使用1615的判定线追踪动画生成器\n遇到bug请及时反馈作者哦\n")
