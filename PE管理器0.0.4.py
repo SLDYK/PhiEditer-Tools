@@ -59,7 +59,7 @@ def exportchart(item):
         setinfo.destroy()
         item=infolist[7]
         savePath=filedialog.asksaveasfilename(initialfile=item[0]+'.zip',filetypes=[("PE谱面", ".zip")])
-        with open("infodata","w") as t:
+        with open("infodata","w",encoding="utf_8") as t:
             t.write("Chart,Music,Image,AspectRatio,ScaleRatio,GlobalAlpha,Name,Level,Illustrator,Designer\n谱面,音乐,图片,宽高比,按键缩放,背景变暗,名称,等级,曲绘,谱师\n")
             t.write(infolist[3]+","+infolist[1]+","+infolist[2]+",,,,"+infolist[0]+","+infolist[8]+","+infolist[6]+","+infolist[5])
             t.close()
