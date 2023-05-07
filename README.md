@@ -1,5 +1,5 @@
 # PhiEditer-Tools
-PE管理器已和Renderer项目合并  
+PE管理器已和PERM项目合并  
 将不再这里提供更新
   
 2022.11.24编辑
